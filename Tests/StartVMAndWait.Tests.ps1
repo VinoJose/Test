@@ -10,6 +10,7 @@ Describe "StartVMAndWait" {
     Function Write-Log {}
     Function Reboot-VM {}
     Function WaitForVMToComeUp {}
+    Function Start-VM {}
     Context "Starting the VM" {
         
         Mock Start-VM
