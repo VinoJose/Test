@@ -54,9 +54,6 @@ $VMToStart,
 $LogName,
 $ScriptPath
 )
-    
-
-
     Try {
         
         Write-Log -LogName $LogName -Message "[Status]Step8:Started" -ScriptPath $ScriptPath -NoTimeStamp
